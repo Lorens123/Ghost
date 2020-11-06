@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  overflow: hidden;
+  margin: 0;
+  background-color: darkgreen;
+}
+
+h1 {
+  margin: 2rem;
+  text-align: center;
+  font-size: 7rem;
+  color: white;
+}
