@@ -12,12 +12,53 @@ header {
 h1 {
   margin: 2rem;
   text-align: center;
-  font-size: 7rem;
+  font-size: 8rem;
   color: white;
 }
 nav {
   margin: 0;
   padding: 0;
   background-color: teal;
-  height: 50px;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  display: inline-block;
+  color: rgb(21, 21, 128);
+  background-color: transparent;
+  padding: 25px;
+  font-size: 2rem;
+}
+a:hover {
+  background-color: green;
+}
+body {
+  background-color: rgb(19, 19, 145);
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+.aside-a {
+  background-color: teal;
+  width: 200px;
+  height: 1000px;
+}
+h2 {
+  font-size: 4rem;
+  color: #ffffff;
+}
+.om {
+  margin: auto;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  width: 700px;
+}
+.omoss {
+  margin: auto;
+  text-align: center;
+  padding: 100px;
 }
